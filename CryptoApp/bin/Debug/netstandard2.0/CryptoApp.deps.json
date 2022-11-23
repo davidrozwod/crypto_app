@@ -1,0 +1,213 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "CryptoApp/1.0.0": {
+        "dependencies": {
+          "CoinAPI.REST.V1": "2.0.9",
+          "Microsoft.AppCenter.Analytics": "5.0.0",
+          "Microsoft.AppCenter.Crashes": "5.0.0",
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "12.0.3",
+          "RestSharp": "106.11.7",
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "CryptoApp.dll": {}
+        }
+      },
+      "CoinAPI.REST.V1/2.0.9": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "12.0.3",
+          "System.ValueTuple": "4.5.0"
+        }
+      },
+      "Microsoft.AppCenter/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.0": {
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Analytics.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.0": {
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Crashes.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "RestSharp/106.11.7": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.11.7.0",
+            "fileVersion": "106.11.7.0"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
+            "assemblyVersion": "4.1.4.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {},
+      "Xamarin.Essentials/1.7.0": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms/5.0.0.2196": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "5.0.0.786"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "5.0.0.786"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "5.0.0.786"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CryptoApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CoinAPI.REST.V1/2.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-paaX8Baw6se888iEX6jEFsfX3+Mq8WMEBYUUlBL3D4/wimz3MJiX0eT/JW+Th0yw6k4PGcSlCAAgReyis7DGzQ==",
+      "path": "coinapi.rest.v1/2.0.9",
+      "hashPath": "coinapi.rest.v1.2.0.9.nupkg.sha512"
+    },
+    "Microsoft.AppCenter/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-psRK1NtE/AuJfMfDKG5Pf/C+kOsjWvVbidAK+lrqi92ucJPs6cS9tJRp83w1UqdhxmbKTjpMqLmVdDsrjXjTKA==",
+      "path": "microsoft.appcenter/5.0.0",
+      "hashPath": "microsoft.appcenter.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Analytics/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Apw+yG5vRB0CfLRzPPhGg9acr3nrKJWTgN66bWCOmUelfYxR9rqrMEojokO7tlKAkhIyNckI2JR6JY+Sa3tANQ==",
+      "path": "microsoft.appcenter.analytics/5.0.0",
+      "hashPath": "microsoft.appcenter.analytics.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Crashes/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fsEMhPPj/6Bc8YVT0Pp0guIPpwhmI+HUZrJi2xoavIi6VSQbT25Xp6zN+iWsEQQpAdA2gABOyAm6Szw4EtZVfA==",
+      "path": "microsoft.appcenter.crashes/5.0.0",
+      "hashPath": "microsoft.appcenter.crashes.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "RestSharp/106.11.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NzndH096CTulvq+ihr7u1mBJ29oukdi9A8bypQJk+kaHxbRzTTrtgsEEQAb04ptTUZmQa7cgo7uF5z7NuEPX1Q==",
+      "path": "restsharp/106.11.7",
+      "hashPath": "restsharp.106.11.7.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    },
+    "Xamarin.Essentials/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
+      "path": "xamarin.essentials/1.7.0",
+      "hashPath": "xamarin.essentials.1.7.0.nupkg.sha512"
+    },
+    "Xamarin.Forms/5.0.0.2196": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zSXDiZukojtEBmZKUUG1yYBwlB9tI8JLPkc6n+Sm1PAX01QyzErWE9AaFJgP7usyoGHn92l4HnQF7A+/MPI6VA==",
+      "path": "xamarin.forms/5.0.0.2196",
+      "hashPath": "xamarin.forms.5.0.0.2196.nupkg.sha512"
+    }
+  }
+}
